@@ -34,7 +34,7 @@ Second, use cache to retrieve the result of running the task
 ```javascript
 var cache = require('vs-cache');
 
-var cachedTask = cache(task, 50);
+var cachedTask = cache.create(task, 50);
 
 cachedTask.retrieve(function callback ( error, value ) {
   console.log('retrieved result: ' + String(error || value));
