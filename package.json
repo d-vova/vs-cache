@@ -1,0 +1,26 @@
+{
+  "name": "vs-cache",
+  "version": "0.0.0",
+  "description": "Limit the number of calls to a function by caching the results of execution",
+  "main": "vs-cache.js",
+  "scripts": {
+    "test": "node vs-cache.js test",
+    "start": "node vs-cache.js"
+  },
+  "dependencies": {
+    "vs-bond": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/d-vova/vs-cache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "Vladimir Darmin",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
